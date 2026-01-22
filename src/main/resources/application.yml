@@ -10,19 +10,19 @@ fq:
   api:
     cookie: store-region=cn-zj; store-region-src=did; install_id=8774420107280631;
     device:
-      host-abi: armeabi-v7a
-      version-name: 6.8.1.32
-      update-version-code: '68132'
-      install-id: '8774420107280631'
-      rom-version: V394IR+release-keys
-      device-brand: Xiaomi
-      device-id: '6244598671428456'
-      resolution: 2400*1080
-      cdid: b9b3e287-ed63-42fa-8665-5fc7ca8cedff
-      device-type: M2007J1SC
-      version-code: '68132'
-      dpi: '480'
       aid: '1967'
+      cdid: 5566b484-82f9-4cef-880d-60ca354e6a99
+      device-brand: HUAWEI
+      device-id: '670078578733609'
+      device-type: WLZ-AN00
+      dpi: '480'
+      host-abi: arm64-v8a
+      install-id: '670078579016233'
+      resolution: 1920*1080
+      rom-version: V433IR+release-keys
+      update-version-code: '68132'
+      version-code: '68132'
+      version-name: 6.8.1.32
     user-agent: com.dragon.read.oversea.gp/68132 (Linux; U; Android 11; zh_CN; M2007J1SC;
       Build/V394IR;tt-ok/3.12.13.4-tiktok)
 spring:
