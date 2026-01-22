@@ -414,8 +414,8 @@ public class FQNovelService {
                 FQNovelResponse<FqIBatchFullResponse> batchResponse = batchFull(itemIds, request.getBookId(), false).get();
 
                 if (batchResponse.getCode() != 0 || batchResponse.getData() == null) {
-                    //throw new Exception("获取章节内容失败: " + batchResponse.getMessage());
-                   return FQNovelResponse.error("获取章节内容失败: " + batchResponse.getMessage());
+                    throw new Exception("获取章节内容失败: " + batchResponse.getMessage());
+                   //return FQNovelResponse.error("获取章节内容失败: " + batchResponse.getMessage());
                 }
 
                 FqIBatchFullResponse batchFullResponse = batchResponse.getData();
