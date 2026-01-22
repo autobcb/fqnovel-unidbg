@@ -7,7 +7,8 @@
 
 - 说明：本项目unidbg模拟调用和加解密部分为人工完成，其余大部分代码为 `GitHub Copilot Agents` 生成，难免存在一些不合理的地方，欢迎二次开发
 
-  - 加解密算法思路参考了 [rudo-rs/fqnovel-api](https://github.com/rudo-rs/fqnovel-api) ，非常感谢大佬分享的思路和代码示例  
+  - 加解密算法思路参考了 [rudo-rs/fqnovel-api](https://github.com/rudo-rs/fqnovel-api) ，非常感谢大佬分享的思路和代码示例
+  - 本项目需要redis 支持，请先部署redis
 
 
 - 目前实现了
